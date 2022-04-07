@@ -1,6 +1,7 @@
 public class FilmManager {
 
     int manLimit = 10;
+    private String[] films = new String[0];
 
     public FilmManager() {
     }
@@ -27,8 +28,6 @@ public class FilmManager {
     public void setFilms(String[] films) {
         this.films = films;
     }
-
-    private String[] films = new String[0];
 
     public void add(String film) {
         int length = films.length + 1;
